@@ -342,7 +342,7 @@ button{
 
 /* ===== FITUR ===== */
 .fitur.section{
-	padding-bottom: 0;
+	padding-bottom: 1rem;
 }
 .fitur{
 	background-color: #FFF;
@@ -547,6 +547,7 @@ button{
 /* ===== SPONSOR ===== */
 .sponsor{
 	background-color: #FFF;
+	padding-bottom: 1.5rem;
 }
 .sponsor__container{
 	-ms-grid-columns: (1fr)[3];
@@ -619,6 +620,7 @@ button{
 /* ===== BLOG ===== */
 .blog{
 	background-color: #FFF;
+	padding-bottom: 3rem;
 }
 .blog__content{
 	grid-gap: 3rem 1.5rem;
