@@ -88,6 +88,9 @@ button{
 	outline: none;
 	cursor: pointer;
 }
+.main{
+	overflow: hidden !important;
+}
 /* ===== end base ===== */
 
 /* ===== REUSABLE CSS CLASSES ===== */
