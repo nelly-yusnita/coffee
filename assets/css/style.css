@@ -358,24 +358,14 @@ button{
 .fitur__card{
 	text-align: center;
 }
-.fitur__img-box{
-	height: 50px;
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	-webkit-box-pack: center;
-	    -ms-flex-pack: center;
-	        justify-content: center;
-	-webkit-box-align: end;
-	    -ms-flex-align: end;
-	        align-items: flex-end;
-	margin-bottom: 1rem;
+.fitur__icon{
+	font-size: 2.5rem;
+	margin-bottom: .5rem;
+	color: var(--first-color);
+	-webkit-transition: .3s;
+	transition: .3s;
 }
-.fitur__img{
-	-webkit-transition: .4s;
-	transition: .4s;
-}
-.fitur__card:hover .fitur__img{
+.fitur__card:hover .fitur__icon{
 	-webkit-transform: translateY(-.25rem);
 	        transform: translateY(-.25rem);
 }
@@ -1175,11 +1165,6 @@ button{
 	}
 	.fitur__card{
 		text-align: initial;
-	}
-	.fitur__img-box{
-		-webkit-box-pack: start;
-		    -ms-flex-pack: start;
-		        justify-content: flex-start;
 	}
 	.fitur__line{
 		position: relative;
