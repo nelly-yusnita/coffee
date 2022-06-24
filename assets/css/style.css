@@ -747,6 +747,7 @@ body.dark-theme{
 /* ===== BLOG ===== */
 .blog{
 	background-color: #FFF;
+	padding-bottom: 6rem;
 }
 .blog__content{
 	grid-gap: 3rem 1.5rem;
